@@ -7,16 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		58146E6C1DDADC960033A67F /* america.wav in Resources */ = {isa = PBXBuildFile; fileRef = 58146E6B1DDADC960033A67F /* america.wav */; };
+		58146E6E1DDAF2F80033A67F /* member.wav in Resources */ = {isa = PBXBuildFile; fileRef = 58146E6D1DDAF2F80033A67F /* member.wav */; };
+		58146E701DDAF4650033A67F /* HowToPlayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58146E6F1DDAF4650033A67F /* HowToPlayScene.swift */; };
+		58146E721DDB00E80033A67F /* bgmusic2.wav in Resources */ = {isa = PBXBuildFile; fileRef = 58146E711DDB00E80033A67F /* bgmusic2.wav */; };
+		58169DC71DE533F100FFD199 /* YouWinScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58169DC61DE533F100FFD199 /* YouWinScene.swift */; };
+		58296FA71DD91B73005B4083 /* ohjeez.wav in Resources */ = {isa = PBXBuildFile; fileRef = 58296FA61DD91B73005B4083 /* ohjeez.wav */; };
+		582AE3131DD92D3100585F52 /* GameOverScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582AE3121DD92D3100585F52 /* GameOverScene.swift */; };
+		582AE3191DD9345B00585F52 /* president.wav in Resources */ = {isa = PBXBuildFile; fileRef = 582AE3181DD9345B00585F52 /* president.wav */; };
+		582AE31B1DD93D6B00585F52 /* StartScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 582AE31A1DD93D6B00585F52 /* StartScene.swift */; };
+		582AE31D1DD98A8B00585F52 /* randy.wav in Resources */ = {isa = PBXBuildFile; fileRef = 582AE31C1DD98A8B00585F52 /* randy.wav */; };
+		58779FB81DD6AC5400BFA933 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58779FB71DD6AC5400BFA933 /* AVFoundation.framework */; };
+		58779FBA1DD6ADCE00BFA933 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58AFB04D1DD64C6D00CCCA4A /* Assets.xcassets */; };
+		5883D3F91DD8F16500105E38 /* bgmusic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5883D3F81DD8F16500105E38 /* bgmusic.wav */; };
+		5883D3FE1DD8F5F200105E38 /* theBoldFont.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5883D3FD1DD8F5F200105E38 /* theBoldFont.ttf */; };
 		58AFB0411DD64C6D00CCCA4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AFB0401DD64C6D00CCCA4A /* AppDelegate.swift */; };
-		58AFB0431DD64C6D00CCCA4A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 58AFB0421DD64C6D00CCCA4A /* GameScene.sks */; };
 		58AFB0451DD64C6D00CCCA4A /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 58AFB0441DD64C6D00CCCA4A /* Actions.sks */; };
 		58AFB0471DD64C6D00CCCA4A /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AFB0461DD64C6D00CCCA4A /* GameScene.swift */; };
 		58AFB0491DD64C6D00CCCA4A /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AFB0481DD64C6D00CCCA4A /* GameViewController.swift */; };
 		58AFB04C1DD64C6D00CCCA4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AFB04A1DD64C6D00CCCA4A /* Main.storyboard */; };
-		58AFB04E1DD64C6D00CCCA4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58AFB04D1DD64C6D00CCCA4A /* Assets.xcassets */; };
 		58AFB0511DD64C6D00CCCA4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58AFB04F1DD64C6D00CCCA4A /* LaunchScreen.storyboard */; };
 		58AFB05C1DD64C6D00CCCA4A /* InvadersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AFB05B1DD64C6D00CCCA4A /* InvadersTests.swift */; };
 		58AFB0671DD64C6D00CCCA4A /* InvadersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58AFB0661DD64C6D00CCCA4A /* InvadersUITests.swift */; };
+		58AFB0791DD6895400CCCA4A /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 58AFB0781DD6895400CCCA4A /* GameScene.sks */; };
+		58B9D8D71E3354870084F181 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B9D8D61E3354870084F181 /* SwiftyJSON.swift */; };
+		58BC882B1DDEDFBD0001BC04 /* ChangeLevelScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58BC882A1DDEDFBD0001BC04 /* ChangeLevelScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +52,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58146E6B1DDADC960033A67F /* america.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = america.wav; sourceTree = "<group>"; };
+		58146E6D1DDAF2F80033A67F /* member.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = member.wav; sourceTree = "<group>"; };
+		58146E6F1DDAF4650033A67F /* HowToPlayScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HowToPlayScene.swift; sourceTree = "<group>"; };
+		58146E711DDB00E80033A67F /* bgmusic2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bgmusic2.wav; sourceTree = "<group>"; };
+		58169DC61DE533F100FFD199 /* YouWinScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YouWinScene.swift; sourceTree = "<group>"; };
+		58296FA61DD91B73005B4083 /* ohjeez.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = ohjeez.wav; sourceTree = "<group>"; };
+		582AE3121DD92D3100585F52 /* GameOverScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameOverScene.swift; sourceTree = "<group>"; };
+		582AE3181DD9345B00585F52 /* president.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = president.wav; sourceTree = "<group>"; };
+		582AE31A1DD93D6B00585F52 /* StartScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartScene.swift; sourceTree = "<group>"; };
+		582AE31C1DD98A8B00585F52 /* randy.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = randy.wav; sourceTree = "<group>"; };
+		58779FB71DD6AC5400BFA933 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		5883D3F81DD8F16500105E38 /* bgmusic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bgmusic.wav; sourceTree = "<group>"; };
+		5883D3FD1DD8F5F200105E38 /* theBoldFont.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = theBoldFont.ttf; path = Invaders/Assets.xcassets/theBoldFont.dataset/theBoldFont.ttf; sourceTree = "<group>"; };
 		58AFB03D1DD64C6D00CCCA4A /* Invaders.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Invaders.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		58AFB0401DD64C6D00CCCA4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		58AFB0421DD64C6D00CCCA4A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
 		58AFB0441DD64C6D00CCCA4A /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
 		58AFB0461DD64C6D00CCCA4A /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		58AFB0481DD64C6D00CCCA4A /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
@@ -53,6 +80,9 @@
 		58AFB0621DD64C6D00CCCA4A /* InvadersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InvadersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		58AFB0661DD64C6D00CCCA4A /* InvadersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InvadersUITests.swift; sourceTree = "<group>"; };
 		58AFB0681DD64C6D00CCCA4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58AFB0781DD6895400CCCA4A /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		58B9D8D61E3354870084F181 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		58BC882A1DDEDFBD0001BC04 /* ChangeLevelScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChangeLevelScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58779FB81DD6AC5400BFA933 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,13 +111,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		58779FB61DD6AC5400BFA933 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				58779FB71DD6AC5400BFA933 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5883D3FC1DD8F25B00105E38 /* sounds */ = {
+			isa = PBXGroup;
+			children = (
+				58296FA61DD91B73005B4083 /* ohjeez.wav */,
+				58146E6B1DDADC960033A67F /* america.wav */,
+				58146E6D1DDAF2F80033A67F /* member.wav */,
+				58146E711DDB00E80033A67F /* bgmusic2.wav */,
+				582AE3181DD9345B00585F52 /* president.wav */,
+				5883D3F81DD8F16500105E38 /* bgmusic.wav */,
+				582AE31C1DD98A8B00585F52 /* randy.wav */,
+			);
+			name = sounds;
+			sourceTree = "<group>";
+		};
 		58AFB0341DD64C6D00CCCA4A = {
 			isa = PBXGroup;
 			children = (
+				5883D3FD1DD8F5F200105E38 /* theBoldFont.ttf */,
 				58AFB03F1DD64C6D00CCCA4A /* Invaders */,
 				58AFB05A1DD64C6D00CCCA4A /* InvadersTests */,
 				58AFB0651DD64C6D00CCCA4A /* InvadersUITests */,
 				58AFB03E1DD64C6D00CCCA4A /* Products */,
+				58779FB61DD6AC5400BFA933 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,14 +159,21 @@
 			isa = PBXGroup;
 			children = (
 				58AFB0401DD64C6D00CCCA4A /* AppDelegate.swift */,
-				58AFB0421DD64C6D00CCCA4A /* GameScene.sks */,
 				58AFB0441DD64C6D00CCCA4A /* Actions.sks */,
+				58AFB0781DD6895400CCCA4A /* GameScene.sks */,
 				58AFB0461DD64C6D00CCCA4A /* GameScene.swift */,
+				58146E6F1DDAF4650033A67F /* HowToPlayScene.swift */,
+				58169DC61DE533F100FFD199 /* YouWinScene.swift */,
+				582AE31A1DD93D6B00585F52 /* StartScene.swift */,
+				58BC882A1DDEDFBD0001BC04 /* ChangeLevelScene.swift */,
+				582AE3121DD92D3100585F52 /* GameOverScene.swift */,
 				58AFB0481DD64C6D00CCCA4A /* GameViewController.swift */,
 				58AFB04A1DD64C6D00CCCA4A /* Main.storyboard */,
+				58B9D8D61E3354870084F181 /* SwiftyJSON.swift */,
 				58AFB04D1DD64C6D00CCCA4A /* Assets.xcassets */,
 				58AFB04F1DD64C6D00CCCA4A /* LaunchScreen.storyboard */,
 				58AFB0521DD64C6D00CCCA4A /* Info.plist */,
+				5883D3FC1DD8F25B00105E38 /* sounds */,
 			);
 			path = Invaders;
 			sourceTree = "<group>";
@@ -202,6 +264,7 @@
 				TargetAttributes = {
 					58AFB03C1DD64C6D00CCCA4A = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = 757GH3XWH3;
 						ProvisioningStyle = Automatic;
 					};
 					58AFB0561DD64C6D00CCCA4A = {
@@ -241,11 +304,19 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				58146E721DDB00E80033A67F /* bgmusic2.wav in Resources */,
 				58AFB04C1DD64C6D00CCCA4A /* Main.storyboard in Resources */,
-				58AFB0431DD64C6D00CCCA4A /* GameScene.sks in Resources */,
-				58AFB04E1DD64C6D00CCCA4A /* Assets.xcassets in Resources */,
+				58146E6C1DDADC960033A67F /* america.wav in Resources */,
+				58296FA71DD91B73005B4083 /* ohjeez.wav in Resources */,
+				5883D3F91DD8F16500105E38 /* bgmusic.wav in Resources */,
+				58AFB0791DD6895400CCCA4A /* GameScene.sks in Resources */,
 				58AFB0511DD64C6D00CCCA4A /* LaunchScreen.storyboard in Resources */,
+				58146E6E1DDAF2F80033A67F /* member.wav in Resources */,
+				582AE3191DD9345B00585F52 /* president.wav in Resources */,
+				5883D3FE1DD8F5F200105E38 /* theBoldFont.ttf in Resources */,
+				582AE31D1DD98A8B00585F52 /* randy.wav in Resources */,
 				58AFB0451DD64C6D00CCCA4A /* Actions.sks in Resources */,
+				58779FBA1DD6ADCE00BFA933 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,7 +342,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				58AFB0471DD64C6D00CCCA4A /* GameScene.swift in Sources */,
+				58BC882B1DDEDFBD0001BC04 /* ChangeLevelScene.swift in Sources */,
 				58AFB0491DD64C6D00CCCA4A /* GameViewController.swift in Sources */,
+				582AE3131DD92D3100585F52 /* GameOverScene.swift in Sources */,
+				582AE31B1DD93D6B00585F52 /* StartScene.swift in Sources */,
+				58169DC71DE533F100FFD199 /* YouWinScene.swift in Sources */,
+				58B9D8D71E3354870084F181 /* SwiftyJSON.swift in Sources */,
+				58146E701DDAF4650033A67F /* HowToPlayScene.swift in Sources */,
 				58AFB0411DD64C6D00CCCA4A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,11 +501,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 757GH3XWH3;
 				INFOPLIST_FILE = Invaders/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danwiegand.Invaders;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -436,11 +516,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 757GH3XWH3;
 				INFOPLIST_FILE = Invaders/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.danwiegand.Invaders;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -517,6 +600,7 @@
 				58AFB06D1DD64C6D00CCCA4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58AFB06E1DD64C6D00CCCA4A /* Build configuration list for PBXNativeTarget "InvadersTests" */ = {
 			isa = XCConfigurationList;
@@ -525,6 +609,7 @@
 				58AFB0701DD64C6D00CCCA4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		58AFB0711DD64C6D00CCCA4A /* Build configuration list for PBXNativeTarget "InvadersUITests" */ = {
 			isa = XCConfigurationList;
@@ -533,6 +618,7 @@
 				58AFB0731DD64C6D00CCCA4A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
